@@ -1,0 +1,18 @@
+---
+// Frontmatter: runs at build time, never in the visitor's browser.
+// In milestone 1.2 this import moves into BaseLayout.astro.
+import "../styles/global.css";
+
+const title = "Portfolio — under construction";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <h1 class="text-3xl font-bold">{title}</h1>
+  </body>
+</html>

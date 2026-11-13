@@ -1,0 +1,15 @@
+# Downloaded libraries — rebuilt exactly from package-lock.json with `npm install`
+node_modules/
+
+# Built website — regenerated every time by `npm run build`
+dist/
+
+# Secrets (API keys, passwords) — must NEVER be committed or pushed
+*.env
+.env.*
+
+# Astro's auto-generated cache and types — recreated by `astro dev` / `astro build`
+.astro/
+
+# Log files — temporary output from tools, not source code
+*.log

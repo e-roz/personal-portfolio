@@ -1,0 +1,9 @@
+# Store all text files with LF (Linux) line endings in the repository,
+# regardless of the OS the developer uses. Linux CI and hosting expect LF.
+* text=auto eol=lf
+
+# Binary files — never convert their contents (converting would corrupt them)
+*.pdf binary
+*.png binary
+*.jpg binary
+*.ico binary
